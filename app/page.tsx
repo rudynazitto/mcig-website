@@ -105,14 +105,6 @@ export default function Home() {
           <p className="text-lg mb-8 max-w-xl mx-auto" style={{ color: '#c4c8c0' }}>
             Your voice strengthens our collective impact. If you are a residential contractor in Massachusetts, MCIG is your advocate for a sustainable future.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/take-action" className="inline-block text-white font-semibold px-8 py-3 rounded-lg transition-colors" style={{ backgroundColor: '#E8743B' }}>
-              Apply for Membership
-            </Link>
-            <Link href="/survey-results" className="inline-block font-semibold px-8 py-3 rounded-lg border-2 transition-colors" style={{ color: '#becab9', borderColor: '#becab9' }}>
-              Read Our Survey
-            </Link>
-          </div>
         </div>
       </section>
     </>
