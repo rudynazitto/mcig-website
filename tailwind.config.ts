@@ -12,7 +12,6 @@ const config: Config = {
         primary: '#535e50',
         'primary-container': '#6b7768',
         secondary: '#a14005',
-        'secondary-container': '#fd844a',
         surface: '#fbf9f6',
         'surface-cream': '#F7F7F5',
         'surface-warm-gray': '#E8E6E0',
@@ -26,8 +25,8 @@ const config: Config = {
         'sage-container': '#6b7768',
       },
       fontFamily: {
-        serif: ['Source Serif 4', 'Georgia', 'serif'],
-        sans: ['Work Sans', 'system-ui', 'sans-serif'],
+        serif: ['var(--font-serif)', 'Georgia', 'serif'],
+        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
         container: '1280px',
